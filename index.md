@@ -1,6 +1,5 @@
 ### Bio
-
-Cory LaNou is a full stack web developer and entrepreneur with over 18 years of experience. Cory has published several technical articles and spoken at conferences around the world. After 11 years of being a successful serial entrepreneur, he has joined the InfluxDB team, working on building an open source time series database, written in Go.  He is active in the Go community, having founded Denver Gophers, one of the top Go meetups in the world, as well as Chicago and Minneapolis Go meetups.  Teaching has always been a passion, and over the past 2 years has led numerous workshops and multi-day training.
+Cory is a full stack technologist (except JavaScript, which he loathes) who has specialized in start-ups for the last 18 years. He was part of the Core engineering team of [InfluxDB](https://influxdata.com), a highly scalable, distributed time series database written in Go. Active in the international Go community, Cory has published several articles related to Go along with creating and leading Go workshops and training courses. While thinking globally, he acts locally by organizing several regional technology Meetups in the Midwest and mentoring new developers and aspiring entrepreneurs.
 
 ### Work History
 Interested in where I have worked?  Just check out my [LinkedIn Profile](http://www.linkedin.com/in/corylanou).
