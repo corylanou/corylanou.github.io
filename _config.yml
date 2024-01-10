@@ -1,7 +1,7 @@
-title: Corylanou.GitHub.io
-description: Cory LaNou
+title: Cory LaNou
+description: Bio for Cory LaNou
 google_analytics: 
-show_downloads: true
+show_downloads: false
 
 gems:
   - jekyll-mentions
