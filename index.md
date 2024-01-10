@@ -1,4 +1,4 @@
-### Bio
+### Cory LaNou
 Cory is a full stack technologist (except JavaScript, which he loathes) who has specialized in start-ups for the last 18 years. He was part of the Core engineering team of [InfluxDB](https://influxdata.com), a highly scalable, distributed time series database written in Go. Active in the international Go community, Cory has published several articles related to Go along with creating and leading Go workshops and training courses. While thinking globally, he acts locally by organizing several regional technology Meetups in the Midwest and mentoring new developers and aspiring entrepreneurs.
 
 ### Work History
