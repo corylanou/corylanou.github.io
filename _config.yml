@@ -1,7 +1,7 @@
 title: Cory LaNou
-description: Go Trainer and Startup Technologist
-google_analytics: 
+description: Expert Level Go Developer, Trainer and Startup Technologist
+google_analytics:
 show_downloads: false
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one

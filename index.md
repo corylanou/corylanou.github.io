@@ -1,10 +1,12 @@
-Cory LaNou a full stack technologist who has specialized in start-ups for the last 20 years. Cory has started several technology companies over the years, including companies such as Pulsity, a web consulting firm in the late 90’s. From that company, Local Launch, an internet marketing technology company was formed and sold to RH Donnelly in 2006.
+I’m a full-stack technologist with 25 years of experience, specializing in start-ups. Over the years, I've founded several technology [companies](#companies-founded), including Pulsity, a web consulting firm from the late 90s. From Pulsity, I launched Local Launch, an internet marketing technology company that was acquired by RH Donnelly in 2006. I continued my journey in the technology sector, founding more companies, including Gopher Guides, a Go training company where I currently serve as a founding partner.
 
-Cory has deep experience in the Go world, having worked on the Core engineering team that contributes to [InfluxDB](https://influxdata.com), a highly scalable, distributed time series database written in Go. Cory has worked on several other Go projects with a focus on profiling and optimizing applications, using advanced profiling concepts such as torch graphs and tracing profiles.
+I co-authored an introductory book on Go titled "[Go Fundamentals](https://bit.ly/gofundamentals)," which is a comprehensive guide for both beginners and experienced developers. The book covers essential concepts and practical applications, making it an invaluable resource for mastering Go.
 
-Cory has deep ties to the Go community, having started one of the very first Go meetups in the world, [Denver Gophers](https://www.meetup.com/denver-go-language-user-group/), as well as assisting in the very first [GopherCon](https://www.gophercon.com/). Cory has created and led numerous Go workshops and training courses. He has several published online articles related to Go.  Cory also helps lead and organize several community technology meetups and mentors new developers. Cory is also a partner at [Gopher Guides](https://gopherguides.com/), the industry leader for Go training and conferences.
+I have extensive experience in the Go ecosystem, having contributed to the Core engineering team at [InfluxDB](https://influxdata.com/), a highly scalable, distributed time series database written in Go. My work has focused on profiling and optimizing applications using advanced techniques like torch graphs and tracing profiles.
 
-When Cory isn’t working on writing new Go training material, he volunteers his time helping local entrepreneurs start up their own businesses by offering free business advice and services, such as incorporating their business, getting their web presence set up, and giving them the morale support they need to make their dreams a reality.
+I am deeply involved in the Go community. I started one of the first Go meetups in the world, [Denver Gophers](https://www.meetup.com/denver-go-language-user-group/), and helped organize the first [GopherCon](https://www.gophercon.com/). I've led numerous Go workshops and training courses and published several online articles related to Go. Additionally, I help lead and organize various community technology meetups and mentor new developers.
+
+When I'm not creating new Go training material, I volunteer my time helping local entrepreneurs start their own businesses. I offer free business advice and services, such as incorporating their business, setting up their web presence, and providing the moral support they need to turn their dreams into reality.
 
 ## Books
 
@@ -12,6 +14,8 @@ When Cory isn’t working on writing new Go training material, he volunteers his
 
 ## Articles
 
+- [Hype Quick Start Guide](https://www.gopherguides.com/articles/golang-hype-quickstart)
+- [Writing Technical Articles Using Hype](https://www.gopherguides.com/articles/golang-hype-markdown)
 - [Go Slog Package](https://gopherguides.com/articles/golang-slog-package)
 - [Slices Package](https://gopherguides.com/articles/golang-slices-package)
 - [Table Driven Testing In Parallel](https://gopherguides.com/articles/table-driven-testing-in-parallel)
@@ -27,13 +31,15 @@ When Cory isn’t working on writing new Go training material, he volunteers his
 
 ## Speaking Engagements
 
+- [GopherCon 2024](https://www.gophercon.com/agenda/session/1330850) - Workshop: Profiling and Optimizing Go Programs
+- [GopherCon 2024](https://www.gophercon.com/agenda/session/1330857) - Workshop: Advanced Testing in Go Programs
 - [UWEC Entrepreneur Program](http://www.uwec.edu/academics/college-business/departments-programs/management-marketing/academic-offerings/dennis-l-heyde-entrepreneur-program/) - Guest Lecturer - Entrepreneurialism, the unexpected journey.
 - [Minneapolis Go](https://www.meetup.com/golangmn/) - Testing in Go
 - [Go London User Group](http://www.meetup.com/Go-London-User-Group) - Testing with Go and Fireside Chat with Bill Kennedy
 - [Minneapolis Go](https://www.meetup.com/golangmn/) - Why Go - Intro to Go
 - [DevOps Minneapolis](http://www.meetup.com/DevOps-Minneapolis) - Why Go - Intro to Go
 - [GopherCon India](http://www.gophercon.in/) - [2016 Closing Keynote - The Go Community](https://www.youtube.com/watch?v=oDSOELkAzRU&list=PLxFC1MYuNgJT_ynbXGuYAZbSnUnq-6VQA&index=25) - [slides](https://speakerdeck.com/corylanou/go-community-gophercon-india)
-- [GopherCon Dubai](http://www.gophercon.ae/) - 2016 The Go Community 
+- [GopherCon Dubai](http://www.gophercon.ae/) - 2016 The Go Community
 - [Chicago Go](https://www.meetup.com/chicagogo/) - Tips and Tricks for Beginners (Go)
 - [Chicago Go](https://www.meetup.com/chicagogo/) - Intro To Go / Command Line Programming with Go
 - [Chippewa Valley Code Camp](http://chippewavalleycodecamp.com/) - 1 Hour Go Bootcamp
@@ -72,8 +78,13 @@ When Cory isn’t working on writing new Go training material, he volunteers his
 - [@corylanou on twitter](http://twitter.com/corylanou)
 - [email](mailto:cory@gopherguides.com)
 
+## Companies Founded
+
+- Gopher Guides - 2017 - Software training company specializing in Go training focused on providing meaningful quickstart workshops for fortune 500 companies.
+- SupportLocal - 2010 - Internet marketing company specializing in social media presence and connectivity for small to medium size businesses.
+- LocalLaunch! - 2003 - (Sold to R.H. Donelly 2006) - Online internet marketing specializing in small to medium size business internet marketing products.
+- Pulsity - 1999 - Internet startup specializing in eCommerce, web development, content strategies and internet marketing.
+
 ## Work History
 
 Interested in where I have worked?  Just check out my [LinkedIn Profile](http://www.linkedin.com/in/corylanou).
-
-
