@@ -32,6 +32,9 @@ ps aux | grep jekyll
 
 # Kill the Jekyll server
 kill $(pgrep -f "jekyll serve")
+
+# Clear Jekyll cache (important after structural changes)
+bundle exec jekyll clean
 ```
 
 ### Linting
@@ -67,3 +70,8 @@ the master branch. No manual deployment steps are required.
   Pages-compatible plugins can be used
 - Always run markdownlint before committing markdown changes (per global
   CLAUDE.md instructions)
+- **Cache Management**: Jekyll aggressively caches processed files. When making
+  structural changes (like removing front matter, changing layouts, etc.),
+  always run `bundle exec jekyll clean` to clear the cache before rebuilding
+- **Standalone Pages**: The `resume.html` file has no Jekyll front matter to
+  bypass layout processing and display as a standalone page
