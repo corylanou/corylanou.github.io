@@ -2,3 +2,15 @@ title: Cory LaNou
 description: Serial Entrepreneur, AI Systems Architect, Golang Developer and Trainer
 google_analytics:
 show_downloads: false
+
+# Default layouts for different file types
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "resume.html"
+    values:
+      layout: null

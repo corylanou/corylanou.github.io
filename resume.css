@@ -215,52 +215,87 @@ section {
     /* Page Setup */
     @page {
         size: A4;
-        margin: 15mm 15mm 15mm 15mm;
+        margin: 12mm;
+    }
+    
+    * {
+        box-sizing: border-box;
     }
     
     body {
-        font-family: 'Georgia', 'Times New Roman', serif;
-        font-size: 11pt;
-        line-height: 1.4;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10pt;
+        line-height: 1.3;
         color: black;
         background: white;
+        margin: 0;
+        padding: 0;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
     }
     
     .resume-container {
         width: 100%;
+        max-width: none;
         padding: 0;
         margin: 0;
         box-shadow: none;
+        overflow: visible;
     }
     
-    /* Header adjustments */
+    /* Header - compact for print */
     header {
         border-bottom: 2px solid black;
-        padding-bottom: 10px;
-        margin-bottom: 15px;
+        padding-bottom: 8px;
+        margin-bottom: 12px;
+        page-break-inside: avoid;
+    }
+    
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .header-text {
+        flex: 1;
+        min-width: 0;
+    }
+    
+    .profile-image-container {
+        flex-shrink: 0;
     }
     
     .profile-image {
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
         border: 2px solid black;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
     }
     
     h1 {
-        font-size: 24pt;
+        font-size: 20pt;
         color: black;
-        margin-bottom: 3px;
+        font-weight: 700;
+        margin: 0 0 2px 0;
+        letter-spacing: -0.3px;
     }
     
     .tagline {
-        font-size: 14pt;
+        font-size: 12pt;
         color: #333;
-        margin-bottom: 8px;
+        font-weight: 500;
+        margin: 0 0 6px 0;
     }
     
     .contact-info {
-        font-size: 10pt;
+        font-size: 9pt;
         color: #333;
+        margin: 0;
     }
     
     .contact-info a {
@@ -268,102 +303,141 @@ section {
         text-decoration: none;
     }
     
-    /* Section headers */
+    .contact-info .separator {
+        margin: 0 8px;
+        color: #999;
+    }
+    
+    /* Section headers - compact */
     h2 {
-        font-size: 14pt;
+        font-size: 12pt;
         color: black;
-        border-bottom: 1px solid #999;
-        padding-bottom: 3px;
-        margin-bottom: 10px;
-        margin-top: 15px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 2px;
+        margin: 10px 0 6px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-weight: 600;
         page-break-after: avoid;
     }
     
     h3 {
-        font-size: 12pt;
+        font-size: 10pt;
         color: black;
+        margin: 0 0 3px 0;
+        font-weight: 600;
         page-break-after: avoid;
     }
     
-    /* Content adjustments */
+    /* Content - more compact */
     section {
+        margin-bottom: 8px;
         page-break-inside: avoid;
-        margin-bottom: 15px;
     }
     
     .summary p {
-        font-size: 10pt;
-        line-height: 1.4;
+        font-size: 9pt;
+        line-height: 1.2;
+        text-align: justify;
+        margin: 0;
     }
     
     .skills-grid {
-        font-size: 9.5pt;
-        gap: 8px 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px 10px;
+        font-size: 8pt;
+        margin: 0;
     }
     
+    .skill-category {
+        margin-bottom: 2px;
+    }
+    
+    .skill-category strong {
+        color: #333;
+        font-weight: 600;
+    }
+    
+    /* Experience - compact layout */
     .job {
-        margin-bottom: 12px;
+        margin-bottom: 6px;
         page-break-inside: avoid;
     }
     
     .job-header {
-        margin-bottom: 5px;
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        margin-bottom: 2px;
+        gap: 6px;
+    }
+    
+    .job-header h3 {
+        margin-right: 8px;
+        flex: 0 0 auto;
     }
     
     .job-header .company {
-        color: #333;
-        font-size: 11pt;
+        color: #555;
+        font-weight: 500;
+        font-size: 9pt;
+        flex: 1 1 auto;
     }
     
     .job-header .dates {
-        font-size: 9pt;
-        color: #555;
+        color: #666;
+        font-size: 8pt;
+        font-style: italic;
+        margin-left: auto;
     }
     
     .job ul {
-        font-size: 10pt;
-        margin-left: 15px;
-        line-height: 1.3;
+        font-size: 8pt;
+        margin: 0 0 0 12px;
+        line-height: 1.2;
+        padding: 0;
     }
     
     .job ul li {
-        margin-bottom: 2px;
+        margin-bottom: 1px;
+        list-style-type: disc;
     }
     
+    /* Accomplishments - compact grid */
     .accomplishments-grid {
-        font-size: 9.5pt;
-        gap: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        font-size: 8pt;
+        margin: 0;
     }
     
     .accomplishment h3 {
-        font-size: 10pt;
-        margin-bottom: 5px;
+        font-size: 9pt;
+        margin: 0 0 2px 0;
+        color: #333;
+    }
+    
+    .accomplishment p {
+        line-height: 1.2;
+        margin: 0;
     }
     
     .education-item {
-        font-size: 10pt;
-        margin-bottom: 5px;
+        font-size: 8pt;
+        margin-bottom: 2px;
     }
     
-    /* Optimize space for single page */
-    .experience .job:nth-child(n+5) {
-        margin-bottom: 10px;
+    /* Preserve colors and styling */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
     }
     
-    .experience .job:nth-child(n+5) ul {
-        font-size: 9.5pt;
-    }
-    
-    /* Links should show URLs in print */
+    /* Links - no URL display needed */
     a[href]:after {
         content: "";
-    }
-    
-    /* Force black text for better print quality */
-    * {
-        color: black !important;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
     }
 }
 
@@ -403,5 +477,37 @@ section {
     
     .job-header .dates {
         margin-left: 0;
+    }
+}
+
+/* Download Section */
+.download-section {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid var(--light-gray);
+}
+
+.download-link {
+    display: inline-block;
+    background: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+    background: #2980b9;
+    color: white;
+}
+
+/* Hide download section when printing */
+@media print {
+    .no-print {
+        display: none !important;
     }
 }
