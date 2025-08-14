@@ -1,10 +1,12 @@
-I’m a full-stack technologist with 25 years of experience, specializing in start-ups. Over the years, I've founded several technology [companies](#companies-founded), including Pulsity, a web consulting firm from the late 90s. From Pulsity, I launched Local Launch, an internet marketing technology company that was acquired by RH Donnelly in 2006. I continued my journey in the technology sector, founding more companies, including Gopher Guides, a Go training company where I currently serve as a founding partner.
+I'm a full-stack technologist with over 30 years of experience, specializing in start-ups and technology consulting. Over the years, I've founded several technology [companies](#companies-founded), including Pulsity, a web consulting firm from the late 90s. From Pulsity, I launched Local Launch, an internet marketing technology company that was acquired by RH Donnelly in 2006. I continued my journey in the technology sector, founding Digital Drywood in 2004, a comprehensive technology and business consulting firm where I currently serve as President, and Gopher Guides in 2017, a Go training company where I serve as a founding partner.
 
 I co-authored an introductory book on Go titled "[Go Fundamentals](https://bit.ly/gofundamentals)," which is a comprehensive guide for both beginners and experienced developers. The book covers essential concepts and practical applications, making it an invaluable resource for mastering Go.
 
 I have extensive experience in the Go ecosystem, having contributed to the Core engineering team at [InfluxDB](https://influxdata.com/), a highly scalable, distributed time series database written in Go. My work has focused on profiling and optimizing applications using advanced techniques like torch graphs and tracing profiles.
 
 I am deeply involved in the Go community. I started one of the first Go meetups in the world, [Denver Gophers](https://www.meetup.com/denver-go-language-user-group/), and helped organize the first [GopherCon](https://www.gophercon.com/). I've led numerous Go workshops and training courses and published several online articles related to Go. Additionally, I help lead and organize various community technology meetups and mentor new developers.
+
+Recently, I've been contributing to the development of critical privacy infrastructure for AI systems. I worked on the Oblivious Gateway layer at [Confident Security](https://confident.security/), implementing components essential for private and secure AI inference. This includes developing the Go implementation of OHTTP (Oblivious HTTP) - a protocol that enables privacy-preserving communication between clients and servers - as well as BHTTP (Binary HTTP) for efficient binary encoding of HTTP messages. These technologies are fundamental to CONFSEC's enterprise-grade privacy solution that ensures complete data privacy during AI interactions, preventing unauthorized access, data leakage, or training on user prompts. We hope to see these implementations open-sourced to advance the broader ecosystem of private AI infrastructure.
 
 When I'm not creating new Go training material, I volunteer my time helping local entrepreneurs start their own businesses. I offer free business advice and services, such as incorporating their business, setting up their web presence, and providing the moral support they need to turn their dreams into reality.
 
@@ -14,16 +16,19 @@ When I'm not creating new Go training material, I volunteer my time helping loca
 
 ## Articles
 
+- [Building a Production-Ready SEO Validator in 4 Hours](https://www.gopherguides.com/articles/building-production-seo-validator-4-hours-ai)
+- [Why Your Team Still Needs Go Training in the Age of AI](https://www.gopherguides.com/articles/why-your-team-still-needs-go-training-in-the-age-of-ai)
+- [Quick Tips: Pointer Optimizations in Go](https://www.gopherguides.com/articles/golang-quick-tips-pointers)
 - [Hype Quick Start Guide](https://www.gopherguides.com/articles/golang-hype-quickstart)
 - [Writing Technical Articles Using Hype](https://www.gopherguides.com/articles/golang-hype-markdown)
-- [Go Slog Package](https://gopherguides.com/articles/golang-slog-package)
-- [Slices Package](https://gopherguides.com/articles/golang-slices-package)
-- [Table Driven Testing In Parallel](https://gopherguides.com/articles/table-driven-testing-in-parallel)
-- [Where and When to use Iota in Go](https://gopherguides.com/articles/how-to-use-iota-in-golang)
-- [Leveraging the Go Type System](https://gopherguides.com/articles/leveraging-the-go-type-system)
-- [Embracing the Go Type System](https://gopherguides.com/articles/embracing-the-go-type-system)
-- [Converting a Static Site to Buffalo](https://gopherguides.com/articles/converting-a-static-website-to-golang-buffalo)
-- [Don't commit improperly formatted code](https://gopherguides.com/articles/dont-commit-improperly-formatted-golang-code)
+- [Go Slog Package](https://www.gopherguides.com/articles/golang-slog-package)
+- [Slices Package](https://www.gopherguides.com/articles/golang-slices-package)
+- [Table Driven Testing In Parallel](https://www.gopherguides.com/articles/table-driven-testing-in-parallel)
+- [Where and When to use Iota in Go](https://www.gopherguides.com/articles/how-to-use-iota-in-golang)
+- [Leveraging the Go Type System](https://www.gopherguides.com/articles/leveraging-the-go-type-system)
+- [Embracing the Go Type System](https://www.gopherguides.com/articles/embracing-the-go-type-system)
+- [Converting a Static Site to Buffalo](https://www.gopherguides.com/articles/converting-a-static-website-to-golang-buffalo)
+- [Don't commit improperly formatted code](https://www.gopherguides.com/articles/dont-commit-improperly-formatted-golang-code)
 - [Making a RESTful JSON API in Go](http://thenewstack.io/make-a-restful-json-api-go/)
 - [CLI: Command Line Programming with Go](http://thenewstack.io/cli-command-line-programming-with-go/)
 - [Why One Developer Chose Go](http://thenewstack.io/why-one-developer-chose-go/)
@@ -31,6 +36,8 @@ When I'm not creating new Go training material, I volunteer my time helping loca
 
 ## Speaking Engagements
 
+- [GopherCon 2025](https://www.gophercon.com/agenda/session/1545640) - Workshop: Profiling and Optimizing Go Programs
+- [GopherCon 2025](https://www.gophercon.com/agenda/session/1545651) - Workshop: Advanced Testing in Go Programs
 - [GopherCon 2024](https://www.gophercon.com/agenda/session/1330850) - Workshop: Profiling and Optimizing Go Programs
 - [GopherCon 2024](https://www.gophercon.com/agenda/session/1330857) - Workshop: Advanced Testing in Go Programs
 - [UWEC Entrepreneur Program](http://www.uwec.edu/academics/college-business/departments-programs/management-marketing/academic-offerings/dennis-l-heyde-entrepreneur-program/) - Guest Lecturer - Entrepreneurialism, the unexpected journey.
@@ -82,6 +89,7 @@ When I'm not creating new Go training material, I volunteer my time helping loca
 
 - Gopher Guides - 2017 - Software training company specializing in Go training focused on providing meaningful quickstart workshops for fortune 500 companies.
 - SupportLocal - 2010 - Internet marketing company specializing in social media presence and connectivity for small to medium size businesses.
+- Digital Drywood - 2004 - Comprehensive technology and business consulting firm providing custom software development, AI/LLM implementations, entrepreneurship mentoring, and business acquisition consulting. Over 500 completed projects and 10,000+ developers trained.
 - LocalLaunch! - 2003 - (Sold to R.H. Donelly 2006) - Online internet marketing specializing in small to medium size business internet marketing products.
 - Pulsity - 1999 - Internet startup specializing in eCommerce, web development, content strategies and internet marketing.
 
